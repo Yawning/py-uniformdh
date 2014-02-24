@@ -80,7 +80,7 @@ Test keypair y,Y:
     889b 5bc3 d3e4 ea33 d4f2 dfdd 34e5 e5a7
     2ff2 4ee4 6316 d475 7dad 0936 6a0b 66b3
 
-  p - X: Alternative Public Key
+  p - Y: Alternative Public Key
 
     2fb1 ea91 aab3 c7ff f164 3358 4202 9ee4
     a676 6e45 142a f0f0 d3a0 d1ee 53e0 aa3c
