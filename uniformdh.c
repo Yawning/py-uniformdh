@@ -309,7 +309,7 @@ UniformDH_get_secret(UniformDHObject* self, PyObject* args)
     }
     ret = PyString_FromStringAndSize(secret, sizeof(secret));
   } else
-    ret = PyExc_ValueError;
+    PyErr_SetString(PyExc_ValueError, "Invalid public key");
 
   OPENSSL_cleanse(secret, sizeof(secret));
   BN_free(peer_public_key);
