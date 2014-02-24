@@ -260,10 +260,6 @@ UniformDH_init(UniformDHObject*self, PyObject* args, PyObject* kwargs)
   }
 
   return 0;
-
-opessl_fail:
-  PyErr_SetString(PyExc_SystemError, "OpenSSL math failure");
-  return -1;
 }
 
 /* UniformDH.get_public(self) */
